@@ -14,8 +14,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_user" />
-                            <entry key="sourceFile" value="D:\JBC\NTU\Courses\CZ2006\Meet4Sports\app\src\main\res\drawable\user.svg" />
+                            <entry key="outputName" value="ic_home" />
+                            <entry key="sourceFile" value="D:\JBC\NTU\Courses\CZ2006\Meet4Sports\app\src\main\res\drawable\home.svg" />
                           </map>
                         </option>
                       </PersistentState>

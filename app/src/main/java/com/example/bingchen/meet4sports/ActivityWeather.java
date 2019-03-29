@@ -34,7 +34,7 @@ public class ActivityWeather extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
-                    case R.id.ic_arrow:
+                    case R.id.ic_home:
                         Intent intent0 = new Intent(ActivityWeather.this, MainActivity.class);
                         startActivity(intent0);
                         break;

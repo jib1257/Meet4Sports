@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()){
-                    case R.id.ic_arrow:
+                    case R.id.ic_home:
 
                         break;
 
