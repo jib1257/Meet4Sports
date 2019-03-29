@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="tabian.com.actionbar.MainActivity">
+    tools:context="com.example.bingchen.meet4sports.MainActivity">
 
 
     <RelativeLayout
@@ -42,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="80dp"
                 android:textSize="30sp"
-                android:id="@+id/activityTitle3"
+                android:id="@+id/activityTitle1"
                 android:textAlignment="center"/>
 
         </RelativeLayout>

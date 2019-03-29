@@ -9,24 +9,24 @@
         />
 
         <item
-            android:id="@+id/ic_android"
-            android:icon="@drawable/ic_android"
-            android:title="Android"
+            android:id="@+id/ic_events"
+            android:icon="@drawable/ic_event"
+            android:title="Events"
             />
         <item
-            android:id="@+id/ic_books"
-            android:icon="@drawable/ic_library_books"
-            android:title="Books"
+            android:id="@+id/ic_search"
+            android:icon="@drawable/ic_magnifier_tool"
+            android:title="Search"
             />
         <item
-            android:id="@+id/ic_center_focus"
-            android:icon="@drawable/ic_center_focus"
-            android:title="Center"
+            android:id="@+id/ic_weather"
+            android:icon="@drawable/ic_cloud"
+            android:title="Weather"
             />
         <item
-            android:id="@+id/ic_backup"
-            android:icon="@drawable/ic_backup"
-            android:title="Backup"
+            android:id="@+id/ic_profile"
+            android:icon="@drawable/ic_user"
+            android:title="My M4S"
             />
 
 

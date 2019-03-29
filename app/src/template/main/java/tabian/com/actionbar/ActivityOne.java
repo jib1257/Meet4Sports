@@ -22,7 +22,7 @@ public class ActivityOne extends AppCompatActivity {
         setContentView(R.layout.activity_one);
 
         TextView title = (TextView) findViewById(R.id.activityTitle1);
-        title.setText("This is ActivityOne");
+        title.setText("This is ActivityEvents, load contents of browsing events here");
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNavView_Bar);
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);

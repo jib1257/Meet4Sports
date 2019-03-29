@@ -52,23 +52,23 @@ public class MainActivity extends AppCompatActivity {
 
                         break;
 
-                    case R.id.ic_android:
-                        Intent intent1 = new Intent(MainActivity.this, ActivityOne.class);
+                    case R.id.ic_events:
+                        Intent intent1 = new Intent(MainActivity.this, ActivityEvents.class);
                         startActivity(intent1);
                         break;
 
-                    case R.id.ic_books:
-                        Intent intent2 = new Intent(MainActivity.this, ActivityTwo.class);
+                    case R.id.ic_search:
+                        Intent intent2 = new Intent(MainActivity.this, ActivitySearch.class);
                         startActivity(intent2);
                         break;
 
-                    case R.id.ic_center_focus:
-                        Intent intent3 = new Intent(MainActivity.this, ActivityThree.class);
+                    case R.id.ic_weather:
+                        Intent intent3 = new Intent(MainActivity.this, ActivityWeather.class);
                         startActivity(intent3);
                         break;
 
-                    case R.id.ic_backup:
-                        Intent intent4 = new Intent(MainActivity.this, ActivityFour.class);
+                    case R.id.ic_profile:
+                        Intent intent4 = new Intent(MainActivity.this, ActivityProfile.class);
                         startActivity(intent4);
                         break;
                 }

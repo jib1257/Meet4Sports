@@ -4,12 +4,8 @@ package com.example.bingchen.meet4sports;
 
 import android.annotation.SuppressLint;
 import android.support.design.bottomnavigation.LabelVisibilityMode;
-import android.support.design.internal.BottomNavigationItemView;
 import android.support.design.internal.BottomNavigationMenuView;
-import android.support.design.internal.NavigationMenu;
 import android.support.design.widget.BottomNavigationView;
-import android.util.Log;
-import java.lang.reflect.Field;
 
 public class BottomNavigationViewHelper {
     @SuppressLint("RestrictedApi")
