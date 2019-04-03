@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
     private ViewPager mViewPager;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -73,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
                         startActivity(intent4);
                         break;
                 }
-
 
                 return false;
             }
