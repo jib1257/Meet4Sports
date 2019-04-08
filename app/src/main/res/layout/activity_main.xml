@@ -14,50 +14,51 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:id="@+id/topBar">
+            android:layout_height="70dp"
+            android:id="@+id/topBar"
+            >
 
-            <android.support.design.widget.AppBarLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/event_list_title"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Event List"
+                android:textSize="40dp"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#000"
+                />
 
-
-                <android.support.design.widget.TabLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tabs"
-                    android:background="@drawable/white_grey_border_bottom">
-
-
-                </android.support.design.widget.TabLayout>
-
-            </android.support.design.widget.AppBarLayout>
-
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/event_list_title"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="15dp"
+                android:text="Create Event"
+                android:id="@+id/create_event_btn"
+                />
         </RelativeLayout>
 
-
-
-
-        <RelativeLayout
+        <LinearLayout
             android:layout_below="@+id/topBar"
             android:layout_above="@+id/bottomBar"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             >
 
-            <android.support.v4.view.ViewPager
+            <android.support.v7.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:id="@+id/container"
-                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                android:id="@+id/event_recycle_view"
+                app:reverseLayout="true"
+                app:stackFromEnd="true"
+                android:scrollbars="vertical">
+            </android.support.v7.widget.RecyclerView>
 
-            </android.support.v4.view.ViewPager>
-
-        </RelativeLayout>
-
-
-
-
+        </LinearLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -71,26 +72,7 @@
                 android:id="@+id/bottomNavView_Bar"
                 android:background="@drawable/white_grey_border_top"
                 app:menu="@menu/bottom_navigation_menu">
-
-
             </android.support.design.widget.BottomNavigationView>
         </RelativeLayout>
-
-
-
     </RelativeLayout>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </android.support.design.widget.CoordinatorLayout>

@@ -22,7 +22,7 @@ public class ActivitySearch extends AppCompatActivity {
         setContentView(R.layout.activity_search);
 
         TextView title = (TextView) findViewById(R.id.activityTitle2);
-        title.setText("This is ActivitySearch, please update the searching engine");
+        title.setText("This is ActivitySearcher, please update the searching engine");
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNavView_Bar);
         BottomNavigationViewHelper.removeNavigationShiftMode(bottomNavigationView);
@@ -39,8 +39,8 @@ public class ActivitySearch extends AppCompatActivity {
                         startActivity(intent0);
                         break;
 
-                    case R.id.ic_events:
-                        Intent intent1 = new Intent(ActivitySearch.this, ActivityEvents.class);
+                    case R.id.ic_message:
+                        Intent intent1 = new Intent(ActivitySearch.this, ActivityMessage.class);
                         startActivity(intent1);
                         break;
 

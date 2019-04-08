@@ -22,7 +22,7 @@ public class ActivityProfile extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
         TextView title = (TextView) findViewById(R.id.activityTitle4);
-        title.setText("This is ActivityProfile, please update methods of loading the contents");
+        title.setText("This is ActivityProf, please update methods of loading the contents");
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNavView_Bar);
         BottomNavigationViewHelper.removeNavigationShiftMode(bottomNavigationView);
@@ -39,8 +39,8 @@ public class ActivityProfile extends AppCompatActivity {
                         startActivity(intent0);
                         break;
 
-                    case R.id.ic_events:
-                        Intent intent1 = new Intent(ActivityProfile.this, ActivityEvents.class);
+                    case R.id.ic_message:
+                        Intent intent1 = new Intent(ActivityProfile.this, ActivityMessage.class);
                         startActivity(intent1);
                         break;
 

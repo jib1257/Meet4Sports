@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bingchen.meet4sports.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/event_table_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="40dp"
+            android:textColor="#000"
+            android:text="Event Details"
+            android:textSize="30dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_name"
+            android:text="Event name:"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_title"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_name_input"
+            android:text="xxx"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_title"
+            android:layout_toRightOf="@id/event_table_name"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_location"
+            android:text="Location:"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_name"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_location_input"
+            android:text="xxx"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_name"
+            android:layout_toRightOf="@id/event_table_location"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_date"
+            android:text="Date:"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_location"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_date_input"
+            android:text="xxx"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_location_input"
+            android:layout_toRightOf="@id/event_table_date"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_time"
+            android:text="Time:"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_date"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_time_input"
+            android:text="xxx"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_date_input"
+            android:layout_toRightOf="@id/event_table_time"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_sport"
+            android:text="Sport:"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_time"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_sport_input"
+            android:text="xxx"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_time_input"
+            android:layout_toRightOf="@id/event_table_sport"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_organizer_name"
+            android:text="Organizer:"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_sport"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_organizer_name_input"
+            android:text="xxx"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_sport_input"
+            android:layout_toRightOf="@id/event_table_organizer_name"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_organizer_email"
+            android:text="Organizer email:"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_organizer_name"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_organizer_email_input"
+            android:text="xxx"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_organizer_name_input"
+            android:layout_toRightOf="@id/event_table_organizer_email"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_cur_part"
+            android:text="Current number of participants:"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_organizer_email"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_cur_part_input"
+            android:text="xxx"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_organizer_email_input"
+            android:layout_toRightOf="@id/event_table_cur_part"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_max_part"
+            android:text="Maximum number of participants:"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_cur_part"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_max_part_input"
+            android:text="xxx"
+            android:textSize="15dp"
+            android:layout_below="@id/event_table_cur_part_input"
+            android:layout_toRightOf="@id/event_table_max_part"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_back_btn"
+            android:layout_below="@id/event_table_max_part"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="80dp"
+            android:text="Back"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_table_join_btn"
+            android:layout_below="@id/event_table_max_part"
+            android:layout_toRightOf="@id/event_table_back_btn"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="70dp"
+            android:text="Join"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/bottomBar"
+            android:layout_alignParentBottom="true">
+
+            <android.support.design.widget.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bottomNavView_Bar"
+                android:background="@drawable/white_grey_border_top"
+                app:menu="@menu/bottom_navigation_menu">
+
+
+            </android.support.design.widget.BottomNavigationView>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

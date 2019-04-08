@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/event_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    card_view:cardCornerRadius="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:outlineAmbientShadowColor="@color/colorGrey"
+    card_view:cardBackgroundColor="#C0C0C0"
+    android:elevation="90dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/list_root">
+
+        <ImageView
+            android:id="@+id/event_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:layout_margin="15dp"
+            android:src="@drawable/event_icon"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_card_name"
+            android:text="Event name"
+            android:layout_toRightOf="@id/event_img"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_card_date"
+            android:text="xxxx-xx-xx"
+            android:textSize="15dp"
+            android:textColor="#fff"
+            android:layout_toRightOf="@id/event_img"
+            android:layout_below="@id/event_card_name"
+            android:layout_marginLeft="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_card_time"
+            android:text="xx:xx"
+            android:textSize="15dp"
+            android:layout_below="@id/event_card_name"
+            android:layout_toRightOf="@id/event_card_date"
+            android:layout_marginLeft="8dp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_card_sport"
+            android:text="sport"
+            android:textSize="15dp"
+            android:layout_below="@id/event_card_date"
+            android:layout_toRightOf="@id/event_img"
+            android:layout_marginLeft="15dp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/organizer_prefix"
+            android:text="Organizer: "
+            android:textSize="15dp"
+            android:layout_below="@id/event_card_sport"
+            android:layout_toRightOf="@id/event_img"
+            android:layout_marginLeft="15dp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/event_card_organizer"
+            android:text="xx:xx"
+            android:textSize="15dp"
+            android:layout_below="@id/event_card_sport"
+            android:layout_toRightOf="@id/organizer_prefix"
+            android:layout_marginLeft="1dp"
+            android:textColor="#fff"/>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

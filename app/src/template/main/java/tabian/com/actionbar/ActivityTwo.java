@@ -22,7 +22,7 @@ public class ActivityTwo extends AppCompatActivity {
         setContentView(R.layout.activity_two);
 
         TextView title = (TextView) findViewById(R.id.activityTitle2);
-        title.setText("This is ActivitySearch");
+        title.setText("This is ActivitySearcher");
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNavView_Bar);
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);

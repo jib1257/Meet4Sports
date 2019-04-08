@@ -22,7 +22,7 @@ public class ActivityThree extends AppCompatActivity {
         setContentView(R.layout.activity_three);
 
         TextView title = (TextView) findViewById(R.id.activityTitle3);
-        title.setText("This is ActivityWeather");
+        title.setText("This is ActivityWeatherr");
 
         BottomNavigationView bottomNavigationView = (BottomNavigationView) findViewById(R.id.bottomNavView_Bar);
         BottomNavigationViewHelper.disableShiftMode(bottomNavigationView);

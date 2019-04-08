@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "1008586567033",
+    "firebase_url": "https://meet4sports-82lafite.firebaseio.com",
+    "project_id": "meet4sports-82lafite",
+    "storage_bucket": "meet4sports-82lafite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008586567033:android:0419cdb1eaf09b07",
+        "android_client_info": {
+          "package_name": "com.example.bingchen.meet4sports"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008586567033-ahjl31ki1tic20kstk8ie5p57958vrpn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bingchen.meet4sports",
+            "certificate_hash": "1fdee68e293f09ee38df877c30a7123db9d5ccaa"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoKUoLOPFd4HhJzP8uQ3RhSpC1NclmEs8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008586567033-pe2chminn7p5jpub0h1r27l4pdr9o7p7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

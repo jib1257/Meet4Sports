@@ -10,13 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".ActivityLogin"
+            android:label="@string/title_activity_login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
-
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityEvents"></activity>
+        <activity android:name=".ActivityRegistration"></activity>
+        <activity android:name=".ActivityJoinEvents"></activity>
+        <activity android:name=".ActivityCreateEvent"></activity>
+        <activity android:name=".ActivityMessage"></activity>
         <activity android:name=".ActivitySearch"></activity>
         <activity android:name=".ActivityWeather"></activity>
         <activity android:name=".ActivityProfile"></activity>
